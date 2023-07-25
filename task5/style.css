@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 8px;
+    font-family: sans-serif !important;
+    flex-direction: column;
+    gap: 16px;
+}
+
+p {
+    margin: 0;
+}
+
+body > div {
+    max-width: 600px;
+    width: 100%;
+}
+
+form, .output {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.button {
+    padding: 10px 14px;
+    display: flex;
+    border-radius: 8px;
+    width: fit-content;
+    cursor: pointer;
+    outline: none;
+    stroke: none;
+    border: none;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input[type="text"] {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 8px;
+    background-color: aliceblue;
+}
+
+.button[type="submit"] {
+    background-color: #dfefdf;
+    color: green;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.button[type="submit"]:hover {
+    background-color: #a9d9a9;
+}
+
+#duplicateField {
+    height: 120px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+

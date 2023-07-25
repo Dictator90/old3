@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 8px;
+    font-family: sans-serif !important;
+    flex-direction: column;
+    gap: 16px;
+}
+
+p {
+    margin: 0;
+}
+
+body > div {
+    max-width: 600px;
+    width: 100%;
+}
+
+.button {
+    padding: 10px 14px;
+    display: flex;
+    border-radius: 8px;
+    width: fit-content;
+    cursor: pointer;
+    outline: none;
+    stroke: none;
+    border: none;
+}
+
+a.button {
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    box-shadow: 5px 5px salmon;
+}
+
+

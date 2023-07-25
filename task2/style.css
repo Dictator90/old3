@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 8px;
+    font-family: monospace;
+    flex-direction: column;
+    gap: 16px;
+}
+
+body > div {
+    max-width: 600px;
+    width: 100%;
+}
+.button {
+    padding: 10px 14px;
+    display: flex;
+    border-radius: 8px;
+    width: fit-content;
+    cursor: pointer;
+}
+
